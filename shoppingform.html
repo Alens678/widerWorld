@@ -29,8 +29,8 @@
                 <option value="oro">Paquete Oro</option>
                 <option value="plata">Paquete Plata</option>
                 <option value="bronce">Paquete Bronce</option>
-            </select>
-            <label for="passengers">Cantidad de pasajeros:</label>
+            </select><br>
+            <label for="passengers">Número de pasajeros:</label>
             <input type="number" id="passengers" name="passengers" min="1" max="10">
         </form>
     </section>
@@ -38,17 +38,15 @@
     <!--INFO CLIENTE-->
     <section>
             <form>
-                <h2>Información básica</h2>
-                <hr>
-            <fieldset>
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email"><br>
+                <h2>Información general</h2>
 
                 <label for="nombre">Nombre:</label>
                 <input type="text" id="nombre" name="nombre"><br>
 
                 <label for="apellido">Apellido:</label>
                 <input type="text" id="apellido" name="apellido"><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email"><br>
 
                 <label for="fecha_nacimiento">Fecha de nacimiento:</label>
                 <input type="date" id="fecha_nacimiento" name="fecha_nacimiento"><br>
@@ -60,15 +58,6 @@
                     <option value="otro">Otro</option>
                 </select><br>
 
-                <label for="necesidades">Necesidades especiales:</label>
-                <textarea id="necesidades" name="necesidades"></textarea><br>
-            </fieldset>
-        </form>
-
-        <!--INFO GENERAL-->
-        <form>
-            <h2>Información general</h2><hr>
-            <fieldset>
                 <label for="phone">Teléfono celular:</label>
                 <input type="tel" id="phone" name="phone" required><br>
 
@@ -80,15 +69,14 @@
 
                 <label for="emergency">Contacto de emergencia:</label>
                 <input type="tel" id="emergency" name="emergency" required><br>
-            </fieldset>
-        </form>
-    </section>
-
+                <label for="necesidades">Necesidades especiales:</label><br>
+                <textarea id="necesidades" name="necesidades"></textarea>
+    
     <!--PAGO-->
-    <section>
-             <form>
-                <h2>Información de pago</h2><hr>
-          <fieldset>
+                <h2>Información de pago</h2>
+            <label for="tarjeta">Nombre de la tarjeta:</label>
+            <input type="text" id="nombretarjeta" name="nombretarjeta" required>
+            <br>
             <label for="tarjeta">Número de Tarjeta:</label>
             <input type="text" id="tarjeta" name="tarjeta" required>
             <br>
@@ -99,13 +87,12 @@
             <input type="text" id="cvv" name="cvv" required>
             <br>
             <h2>1599€</h2>
-          </fieldset>
           <input type="checkbox" id="terminos" name="terminos" required>
           <label for="terminos">Acepto los términos y condiciones de la compra</label>
           <br>
           <input type="submit" value="Pagar">
-        </form>
-      </section>
+        
+    </form>
       
 </body>
 <footer>
