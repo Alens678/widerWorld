@@ -1,4 +1,9 @@
 /* Estilos RESET */
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
 
 /* GLOBALS */
 body {
@@ -299,6 +304,43 @@ li {
   display: flex;
   flex-wrap: wrap;
   padding: 50px;
+}
+/*NAV AND FOOTER*/
+
+nav{
+  background-color: #619172;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 40px;
+  align-content: center;
+  padding: 5px;
+
+}
+
+#inicio-sesion{
+  float: right;
+}
+nav a{
+  font-size: 14px;
+color: #FFFFFF;
+stroke: #619172;
+margin: 5px;
+}
+
+nav a :hover{
+  color: #FFFFFF;
+  background-color: #619172;
+}
+nav button{
+  color: #619172;
+background-color: #FFFFFF;
+border-radius: 24px;
+border:1px solid #619172;
+font-size: 14px;
+}
+nav button :hover{
+background-color: #9AB5A4;
 }
 
 
