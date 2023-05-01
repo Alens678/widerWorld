@@ -406,13 +406,13 @@ ol {
 }
 
 
-li {
+.viaje {
   position: relative;
   margin-bottom: 20px;
   font-size: 16px;
 }
 
-li::before {
+.viaje::before {
   content: counter(li);
   counter-increment: li;
   position: absolute;
