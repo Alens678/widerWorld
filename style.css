@@ -41,6 +41,43 @@ hr {
   color: #ccc;
 }
 
+/* Estilo FOOTER */
+
+.footer {
+  background-color: #619172;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-left, .footer-right {
+  width: 50%;
+}
+
+
+.footer-right {
+  text-align: right;
+}
+
+.footer-li{
+  font-size: 12px;
+  color: #ffffff;
+
+}
+
+.footer-title-li,
+#copyr {
+  font-size: 14px;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+
+
+/*CARROUSEL*/
+
 @keyframes tonext {
   75% {
     left: 0;
@@ -485,7 +522,26 @@ textarea {
 
 
 
+/* Estilos CONFIRMACION RESERVA */
 
+.confirmacion-reserva {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
 
+.reservation-number {
+  font-size: 24px;
+  color: #9ab5a4;
+  margin-bottom: 30px;
+}
 
-
+.message {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
