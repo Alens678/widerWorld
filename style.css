@@ -400,13 +400,32 @@ tr:nth-child(even) {
 
 
 ol {
+  list-style: none;
+  counter-reset: li;
   padding-left: 20px;
 }
 
 
 li {
+  position: relative;
+  margin-bottom: 20px;
   font-size: 16px;
-  margin-bottom: 10px;
 }
 
+li::before {
+  content: counter(li);
+  counter-increment: li;
+  position: absolute;
+  left: -30px;
+  top: -2px;
+  background-color: #619172;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  line-height: 26px;
+}
 
