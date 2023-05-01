@@ -29,6 +29,14 @@ p {
   line-height: 22px;
 }
 
+li {
+  color: #1e1e1e;
+  font-family: Arial, sans-serif;
+  font-weight: regular;
+  font-size: 16px;
+  line-height: 22px;
+}
+
 @keyframes tonext {
   75% {
     left: 0;
@@ -278,6 +286,7 @@ li {
   width: 100%;
   height: auto;
   border-radius: 10px;
+  display: block;
 }
 
 .imagen-about {
@@ -289,15 +298,99 @@ li {
   border-radius: 5px;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
 }
-.imagen-about img {
-  width: 100%;
-  height: auto;
-  display: block;
-}
 
 .faq {
   display: flex;
   flex-wrap: wrap;
   padding: 50px;
+}
+
+
+/* Estilos página individual TRIP */
+.info-trip {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+
+.info-trip-left {
+  width: 50%;
+  text-align: justify;
+}
+
+.info-trip-right {
+  width: 50%;
+}
+
+.imagen-trip {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.imagen-trip img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  display: block;
+}
+
+#Reservar {
+  color: #FFFFFF;
+  background-color: #619172;
+  border-radius: 12px;
+  vertical-padding: 10px;
+  horizontal-padding: 24px;
+}
+
+#Reservar:hover {
+  background-color: #9AB5A4;
+}
+
+.nuestros-paquetes {
+  padding: 20px;
+}
+
+.plan-viaje {
+  padding: 50px;
+}
+
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+th, td {
+  text-align: center;
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+th {
+  background-color: #619172;
+  color: white;
+  font-weight: bold;
+  border-radius: 4px;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+ol {
+  padding-left: 20px;
+}
+
+li {
+  font-size: 16px;
+  margin-bottom: 10px;
 }
 
