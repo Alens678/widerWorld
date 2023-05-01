@@ -37,6 +37,10 @@ li {
   line-height: 22px;
 }
 
+hr {
+  color: #ccc;
+}
+
 @keyframes tonext {
   75% {
     left: 0;
@@ -305,7 +309,6 @@ li {
   padding: 50px;
 }
 
-
 /* Estilos página individual TRIP */
 .info-trip {
   display: flex;
@@ -315,17 +318,14 @@ li {
   padding: 50px;
 }
 
-
 .info-trip-left {
   width: 50%;
   text-align: justify;
 }
 
-
 .info-trip-right {
   width: 50%;
 }
-
 
 .imagen-trip {
   width: 100%;
@@ -337,7 +337,6 @@ li {
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
 }
 
-
 .imagen-trip img {
   width: 100%;
   height: auto;
@@ -345,9 +344,8 @@ li {
   display: block;
 }
 
-
 #Reservar {
-  color: #FFFFFF;
+  color: #ffffff;
   background-color: #619172;
   border-radius: 12px;
   font-size: 17px;
@@ -355,22 +353,17 @@ li {
   float: right;
 }
 
-
 #Reservar:hover {
-  background-color: #9AB5A4;
+  background-color: #9ab5a4;
 }
-
 
 .nuestros-paquetes {
   padding: 20px;
 }
 
-
 .plan-viaje {
   padding: 50px;
 }
-
-
 
 table {
   border-collapse: collapse;
@@ -378,13 +371,12 @@ table {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-
-th, td {
+th,
+td {
   text-align: center;
   padding: 10px;
   border: 1px solid #ddd;
 }
-
 
 th {
   background-color: #619172;
@@ -393,18 +385,15 @@ th {
   border-radius: 4px;
 }
 
-
 tr:nth-child(even) {
   background-color: #f2f2f2;
 }
-
 
 ol {
   list-style: none;
   counter-reset: li;
   padding-left: 20px;
 }
-
 
 .viaje {
   position: relative;
@@ -429,3 +418,103 @@ ol {
   line-height: 26px;
 }
 
+/* ESTILOS SHOPPING FORM */
+form {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+
+label {
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 34px;
+
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="number"],
+input[type="date"],
+input[type="month"],
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="tel"]:focus,
+input[type="number"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+textarea:focus {
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  box-shadow: none;
+  outline: none;
+}
+
+input[type="submit"],
+button[type="submit"] {
+  display: inline-block;
+  border: none;
+  margin-top: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  color: #ffffff;
+  background-color: #619172;
+  border-radius: 12px;
+  font-size: 17px;
+  padding: 10px;
+}
+
+input[type="submit"]:hover,
+button[type="submit"]:hover {
+  background-color: #9ab5a4;
+}
+
+input[type="checkbox"] {
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+/* Estilos específicos para el formulario de selección de paquete */
+#paquete {
+  margin-right: 10px;
+}
+
+/* Estilos específicos para el formulario de número de pasajeros */
+#passengers {
+  width: 50px;
+}
+
+/* Estilos específicos para el formulario de información de cliente */
+fieldset {
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+
+legend {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+textarea {
+  width: 100%;
+  height: 100px;
+  resize: vertical;
+}
+
+/* Estilos específicos para el formulario de información de pago */
+#monto {
+  font-size: 18px;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+#terminos {
+  margin-top: 10px;
+}
