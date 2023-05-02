@@ -64,6 +64,7 @@ hr {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  list-style: none;
 }
 
 .footer-left, .footer-right {
@@ -248,7 +249,7 @@ hr {
 .imagen-about {
   width: 100%;
   max-width: 800px;
-  margin: 0 auto;
+  margin: 0 20px;
   border: 1px solid #ccc;
   padding: 10px;
   border-radius: 5px;
@@ -459,4 +460,49 @@ textarea {
   font-size: 18px;
   line-height: 1.5;
   margin-bottom: 30px;
+}
+/* estilo nav */
+nav{
+  display: flex;
+  background-color: #619172;
+  height: 40px;
+  padding: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  align-items: center;
+  justify-content: space-between;
+  
+
+}
+a{
+  text-decoration: none;
+  align-items: center;
+
+
+}
+
+nav img{
+  width: 130px;
+  margin: 5px 0;
+}
+
+
+nav a{
+  font-size: 14px;
+color: #FFFFFF;
+}
+
+nav button{
+  color: #619172;
+background-color: #FFFFFF;
+border-radius: 24px;
+border:1px solid #619172;
+font-size: 14px;
+padding: 0 5px;
+margin: 10px 5px;
+}
+
+nav button:hover{
+  background-color: #619172;
+  color: #FFFFFF ;
+  border: 1px solid ;
 }
