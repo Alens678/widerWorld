@@ -501,6 +501,7 @@ nav button {
   font-size: 14px;
   padding: 0 5px;
   margin: 10px 5px;
+  cursor: pointer;
 }
 
 nav button:hover {
