@@ -467,15 +467,14 @@ nav{
   height: 40px;
   padding: 5px;
   font-family: Arial, Helvetica, sans-serif;
-  align-items: center;
   justify-content: space-between;
-  
-
 }
 a{
   text-decoration: none;
+}
+#inicio{
+  display: flex;
   align-items: center;
-
 
 }
 
@@ -485,9 +484,11 @@ nav img{
 }
 
 
+
 nav a{
   font-size: 14px;
 color: #FFFFFF;
+margin: 10px;
 }
 
 nav button{
