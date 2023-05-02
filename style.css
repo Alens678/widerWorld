@@ -396,6 +396,7 @@ label {
 }
 
 input[type="text"],
+input[type="password"],
 input[type="email"],
 input[type="tel"],
 input[type="number"],
@@ -509,3 +510,68 @@ nav button:hover {
   color: #ffffff;
   border: 1px solid;
 }
+/* stilo signin */
+.sign-form {
+  background-color: #fff;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-items: flex-start;
+  margin: 40px;
+}
+.sign-form input{
+  height: 30px;
+}
+.sign-form a{
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  color:#619172;
+}
+.sign-form input[type="submit"] {
+  height: 40px;
+  width: 300px;
+}
+#container{
+  display: flex;
+  padding: 40px;
+}
+#container img{
+  width: 900px;
+}
+/* log in */
+.login-form{
+  background-color: #fff;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-items: flex-start;
+  margin: 40px;
+}
+.login-form input{
+  height: 30px;
+}
+.login-form a{
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  color:#619172;
+}
+.login-form input[type="submit"] {
+  height: 40px;
+  width: 300px;
+}
+
+#container{
+  display: flex;
+  padding: 40px;
+}
+#container img{
+  width: 900px;
+}
+legend {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  font-style: italic;
+  color: #333;
+}
+
