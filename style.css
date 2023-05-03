@@ -30,7 +30,7 @@ h2 {
 }
 
 h3 {
-  color: #ffc840;
+  color: #ED8443;
 
   font-weight: semibold;
   font-size: 20px;
@@ -370,7 +370,7 @@ hr {
 .imagen-trip {
   width: 100%;
   max-width: 800px;
-  margin: 0 auto;
+  margin: 20px;
   border: 1px solid #ccc;
   padding: 10px;
   border-radius: 5px;
@@ -721,9 +721,12 @@ textarea {
 #container {
   display: flex;
   padding: 40px;
+
 }
 #container img {
-  width: 900px;
+  width: 600px;
+  height: 250px;
+  margin-top: 100px;
 }
 legend {
   font-size: 15px;
@@ -732,7 +735,7 @@ legend {
   color: #333;
 }
 
-@media (max-width: 700px){
+@media (max-width: 600px){
   #container {
     display: flex;
     padding: 40px;
@@ -745,6 +748,7 @@ legend {
   #container img {
     width: 300px;
     height: 80px;
+    
   }
   .login-form {
     width: 200px;
