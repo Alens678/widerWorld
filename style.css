@@ -615,6 +615,7 @@ nav button:hover {
 }
 #container img{
   width: 900px;
+  max-height: 400px;
 }
 /* log in */
 .login-form{
