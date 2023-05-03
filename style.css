@@ -623,6 +623,9 @@ textarea {
     z-index: 100;
   }
 
+  .btn-nav:hover{
+    background:rgba(0,0,0,.3);
+  }
   .navigation li {
     list-style: none;
     width: 100%;
