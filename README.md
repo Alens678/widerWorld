@@ -8,3 +8,12 @@ Al hacer scroll down, se puede apreciar la barra de busqueda de acuerdo a tus pr
 Finalmente un footer, que incluye informacion de contacto de la empresa.
 
 Navegando hacia la pagina "Sobre Nosotros"
+
+mock up
+https://www.figma.com/file/qHpwpvlCjEe26K3IRAimk5/Wider-World?type=design&node-id=1%3A4&t=kG59PRNq0WPbAJ7P-1
+
+presentacion
+https://www.canva.com/design/DAFhllixgrc/InKUuwK7y3b3EIn6EdpHzQ/edit?utm_content=DAFhllixgrc&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+
+el desplegable de nuestra aplicacion
+https://alens678.github.io/widerWorld/
